@@ -10,6 +10,8 @@ function FeedbackStats() {
     }, 0) / feedback.length
   ).toFixed(1)
 
+  //console.log(average)
+
   return (
     <div className="feedback-stats">
       <h4>{feedback.length} reviews</h4>
